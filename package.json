@@ -1,0 +1,16 @@
+{
+  "name": "jsonrpc-tcp",
+  "version": "0.0.0",
+  "description": "JSON-RPC over TCP.",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaredhanson/node-jsonrpc-tcp.git"
+  },
+  "main": "./lib/jsonrpc-tcp",
+  "dependencies": {
+    "yajl": ">= 0.6.1"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["jsonrpc", "rpc" ]
+}
