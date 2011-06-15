@@ -2,12 +2,12 @@ require.paths.unshift('../lib');
 var jsonrpc = require('jsonrpc-tcp');
 
 
-function echo(msg) { 
-    return msg;
+function echo(msg, result) { 
+    return result(null, msg);
 }
 
 var Math = {
-    add: function (a, b) { return a + b; }
+    add: function (a, b, result) { return result(null, a + b); }
 }
 
 var server = jsonrpc.createServer();
