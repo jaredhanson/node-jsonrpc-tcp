@@ -16,6 +16,13 @@ must be installed on your system prior to installing jsonrpc-tcp.
 Install YAJL via [Homebrew](http://mxcl.github.com/homebrew/) on Mac OS X:
 
     $ brew install yajl
+    
+Note that the latest version of yajl (0.6.1) in the npm Registry fails to
+install via npm, as reported in issue [#3](https://github.com/vibornoff/node-yajl/issues/3).
+I have forked and patched yajl to address this issue, and the dependency
+declared by jsonrpc-tcp points to tarball URL of the [v0.6.1-build-fix](https://github.com/jaredhanson/node-yajl/tree/v0.6.1-build-fix)
+tag on my fork.  Once the main yajl repository accepts the patch, jsonrpc-tcp
+will switch to the npm Registry its dependency.
 
 ## License
 
