@@ -12,5 +12,5 @@
     "yajl": ">= 0.6.1"
   },
   "engines": { "node": ">= 0.4.0" },
-  "keywords": ["jsonrpc", "rpc" ]
+  "keywords": ["jsonrpc", "json", "rpc" ]
 }
