@@ -9,7 +9,7 @@
   },
   "main": "./lib/jsonrpc-tcp",
   "dependencies": {
-    "yajl": "https://github.com/jaredhanson/node-yajl/tarball/v0.6.1-build-fix"
+    "jsonsp": ">= 0.0.1"
   },
   "engines": { "node": ">= 0.4.0" },
   "keywords": ["jsonrpc", "json", "rpc" ]
