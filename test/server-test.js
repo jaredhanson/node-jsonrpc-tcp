@@ -10,7 +10,11 @@ var Remote = require('jsonrpc-tcp/remote');
 function MockSocket() {
   events.EventEmitter.call(this);
 }
+
 util.inherits(MockSocket, events.EventEmitter);
+
+MockSocket.prototype.setEncoding = function(encoding) {
+}
 
 
 vows.describe('Server').addBatch({
