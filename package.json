@@ -1,7 +1,7 @@
 {
   "name": "jsonrpc-tcp",
   "version": "0.0.0",
-  "description": "JSON-RPC over TCP.",
+  "description": "JSON-RPC over TCP for Node.js.",
   "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
   "repository": {
     "type": "git",
