@@ -23,7 +23,7 @@ Install YAJL via [Homebrew](http://mxcl.github.com/homebrew/) on Mac OS X:
 
 ## Examples
 
-Refer to the [server](https://github.com/jaredhanson/node-jsonrpc-tcp/tree/master/examples/server.js)
+Refer to [server](https://github.com/jaredhanson/node-jsonrpc-tcp/tree/master/examples/server.js)
 and [client](https://github.com/jaredhanson/node-jsonrpc-tcp/tree/master/examples/client.js)
 for a simple example.
 
