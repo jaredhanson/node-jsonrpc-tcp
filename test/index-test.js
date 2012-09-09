@@ -14,6 +14,12 @@ vows.describe('Module').addBatch({
     'should report a version': function (x) {
       assert.isString(jsonrpc.version);
     },
+    'should export Server': function (x) {
+      assert.isFunction(jsonrpc.Server);
+    },
+    'should export Connection': function (x) {
+      assert.isFunction(jsonrpc.Connection);
+    },
   },
   
   'create server': {
