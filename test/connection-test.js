@@ -35,7 +35,7 @@ vows.describe('Connection').addBatch({
     },
     
     'should expose service correctly' : function(err, connection) {
-      assert.length(Object.keys(connection._methods), 1);
+      assert.lengthOf(Object.keys(connection._methods), 1);
       assert.isFunction(connection._methods['noop']);
     },
   },
@@ -53,7 +53,7 @@ vows.describe('Connection').addBatch({
     },
     
     'should expose service correctly' : function(err, connection) {
-      assert.length(Object.keys(connection._methods), 2);
+      assert.lengthOf(Object.keys(connection._methods), 2);
       assert.isFunction(connection._methods['math.add']);
       assert.isFunction(connection._methods['math.subtract']);
     },
@@ -72,7 +72,7 @@ vows.describe('Connection').addBatch({
     },
     
     'should expose service correctly' : function(err, connection) {
-      assert.length(Object.keys(connection._methods), 2);
+      assert.lengthOf(Object.keys(connection._methods), 2);
       assert.isFunction(connection._methods['ping']);
       assert.isFunction(connection._methods['pong']);
     },

@@ -46,7 +46,7 @@ vows.describe('Server').addBatch({
         assert.instanceOf(remote, Remote);
       },
       'should expose services on connection' : function(err, connection, remote) {
-        assert.length(Object.keys(connection._methods), 1);
+        assert.lengthOf(Object.keys(connection._methods), 1);
         assert.isFunction(connection._methods['noop']);
       },
     },
