@@ -190,7 +190,9 @@ vows.describe('Connection').addBatch({
       var self = this;
       var connection = new Connection(new MockSocket());
       connection.on('request', function(req) {
-        self.callback(null, connection);
+        process.nextTick(function() {
+          self.callback(null, connection);
+        });
       });
       
       process.nextTick(function () {
