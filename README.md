@@ -7,12 +7,13 @@
 Install from source code repository:
 
     $ git clone git@github.com:jaredhanson/node-jsonrpc-tcp.git
+    $ cd node-jsonrpc-tcp
     $ npm install
 
-Through [jsonsp](https://github.com/jaredhanson/node-jsonsp), jsonrpc-tcp
+Through [JSONSP](https://github.com/jaredhanson/node-jsonsp), JSONRPC-TCP
 depends on [YAJL](http://lloyd.github.com/yajl/) and the
 [YAJL binding for Node.js](https://github.com/vibornoff/node-yajl).  libyajl
-must be installed on your system prior to installing jsonrpc-tcp.
+must be installed on your system prior to installing JSONRPC-TCP.
 
 Install YAJL via [Homebrew](http://mxcl.github.com/homebrew/) on Mac OS X:
 

@@ -2,11 +2,19 @@
   "name": "jsonrpc-tcp",
   "version": "0.0.0",
   "description": "JSON-RPC over TCP for Node.js.",
-  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "keywords": ["jsonrpc", "json", "rpc" ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/jaredhanson/node-jsonrpc-tcp.git"
+    "url": "git://github.com/jaredhanson/node-jsonrpc-tcp.git"
   },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/node-jsonrpc-tcp/issues"
+  },
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
   "main": "./lib/jsonrpc-tcp",
   "dependencies": {
     "jsonsp": "0.2.x"
@@ -14,6 +22,8 @@
   "devDependencies": {
     "vows": "0.6.x"
   },
-  "engines": { "node": ">= 0.4.0" },
-  "keywords": ["jsonrpc", "json", "rpc" ]
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
 }
