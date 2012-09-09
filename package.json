@@ -17,6 +17,7 @@
   } ],
   "main": "./lib/jsonrpc-tcp",
   "dependencies": {
+    "pkginfo": "0.2.x",
     "jsonsp": "0.2.x"
   },
   "devDependencies": {
