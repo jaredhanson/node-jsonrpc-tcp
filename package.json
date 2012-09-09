@@ -1,6 +1,6 @@
 {
   "name": "jsonrpc-tcp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JSON-RPC over TCP for Node.js.",
   "keywords": ["jsonrpc", "json", "rpc" ],
   "repository": {
