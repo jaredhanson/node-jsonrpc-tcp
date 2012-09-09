@@ -1,4 +1,3 @@
-require.paths.unshift('../lib');
 var jsonrpc = require('jsonrpc-tcp');
 
 
